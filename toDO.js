@@ -9,7 +9,7 @@ window.setTimeout(function() {
       var action = prompt("Pls Add a new Item to the List");
       toDo.push(action);
     } else {
-      var action = prompt("pls enter a valid command!");
+      action("pls enter a valid command!");
     }
     var input = prompt("What would You like to do?");
   }
